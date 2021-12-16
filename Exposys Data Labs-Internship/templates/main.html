@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Diapred(Diabetes Predictor)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    }
+
+   
+    input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    }
+    .registerbtn {
+    background-color: green;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    }
+
+    .registerbtn:hover {
+    opacity:1;
+    }
+    p{
+        color: darkblue;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+
+    input[type=submit]:hover {
+    background-color: #17cce4;
+    }
+    .center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid green;
+    padding: 10px;
+    }
+
+    </style>
+    </head>
+    <body>
+    <marquee behavior="scroll" direction="left" scrollamount="12">DiaPred (Diabetes Predictor) is an WebApp using Artifical Intelligence for early stage prediction of diabetes.Diabetes is a type of chronic disease which is more common among the people of all age groups. Predicting this disease at an early stage can help a person to take the necessary precautions and change his/her lifestyle accordingly to either prevent the occurrence of this disease or control the disease(For people who already have the disease).</marquee>
+    
+    <h2> <p style="text-align:center;"><u>Diabetes Prediction</u></p></h2>
+    <form action="/predict"method="post">
+    <input type="text" name="Glucose" placeholder="Glucose Level" required="required" />
+    <input type="text" name="Insulin" placeholder="Insulin" required="required" />
+    <input type="text" name="BMI" placeholder="BMI" required="required" />
+    <input type="text" name="DiabetesPedigreeFunction" placeholder="Diabetes PF" required="required" />
+    <input type="text" name="Age" placeholder="Age" required="required" />
+    <button type="submit" class="registerbtn">Predict</button>
+    <b>Author ~ Dhyey Joshi</b>
+    </form>
+    </div>
+
+    </body>
+</html>
+  

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diapred(Diabetes Predictor)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightblue;
+}
+
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.registerbtn {
+  background-color: #e48912;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+ p{
+     color: darkblue;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+input[type=submit]:hover {
+  background-color: #e48912;
+}
+
+
+</style>
+</head>
+<body>
+
+<marquee behavior="scroll" direction="left" scrollamount="12">DiaPred (Diabetes Predictor) is an WebApp using Artifical Intelligence for early stage prediction of diabetes.Diabetes is a type of chronic disease which is more common among the people of all age groups. Predicting this disease at an early stage can help a person to take the necessary precautions and change his/her lifestyle accordingly to either prevent the occurrence of this disease or control the disease(For people who already have the disease).</marquee>
+<h2> <p style="text-align:center;"><u>Prediction Report</u></p></h2>
+{% if prediction == 1%}
+<h2 style="color: rgb(189, 16, 16);">Chances of having Diabetes is more, please consult a Doctor.</h2>
+<p style="text-align:center;"><img src="{{url_for('static', filename='dia.gif')}}" alt="doctor" width="600" height="500"><img style="text-align:right;" src="{{url_for('static', filename='dia.jpg')}}" alt="doc" width="500" height="500"></p>
+
+{% elif prediction == 0%}
+<h2 style="color: darkgreen;">No Worries!!! You don't have Diabetes.</h2>
+<p style="text-align:center;"></p><img src="{{url_for('static', filename='no_dia.gif')}}" alt="Nodoctor" width="600" height="500"></p>
+{% endif %}
+
+
+  
+  </body>
+  </html>
