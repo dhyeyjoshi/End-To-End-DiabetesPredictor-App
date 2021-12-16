@@ -12,5 +12,3 @@ Algoritms:
 8.Gradient Boost
 9.LightGBM
 10.Extra Tree Classifier
-
-![Capture](https://github.com/dhyeyjoshi/Exposys-Data-Labs-Internship-Project/issues/1#issue-1082579937)
