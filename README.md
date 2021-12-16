@@ -13,4 +13,4 @@ Algoritms:
 9.LightGBM
 10.Extra Tree Classifier
 
-![Capture] (https://github.com/dhyeyjoshi/Exposys-Data-Labs-Internship-Project/blob/main/Exposys%20Data%20Labs-Internship/Output%20Images/Main%20Page.png)
+![Capture](https://github.com/dhyeyjoshi/Exposys-Data-Labs-Internship-Project/issues/1#issue-1082579937)
