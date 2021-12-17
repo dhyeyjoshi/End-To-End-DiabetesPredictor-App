@@ -11,6 +11,11 @@ Algoritms:
 7.XGboost
 8.Gradient Boost
 9.LightGBM
-10.Extra Tree Classifier
+10.Extra Tree Classifier</pre>
 
 ![](Images/MainPage.png)
+![](Images/Input1.png)
+![](Images/Output1.png)
+![](Images/Input2.png)
+![](Images/Output2.png)
+
