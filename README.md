@@ -12,3 +12,5 @@ Algoritms:
 8.Gradient Boost
 9.LightGBM
 10.Extra Tree Classifier
+
+![]()
