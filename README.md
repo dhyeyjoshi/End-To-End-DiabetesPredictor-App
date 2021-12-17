@@ -1,6 +1,6 @@
 # DIAPRAD
 Diabetes Prediction using Machine Learning &  Ensemble Learning
-<pre>
+<b><pre>
 Algoritms:
 1.SVM
 2.K Nearest Neighbor
@@ -11,7 +11,7 @@ Algoritms:
 7.XGboost
 8.Gradient Boost
 9.LightGBM
-10.Extra Tree Classifier</pre>
+10.Extra Tree Classifier</pre><b>
 
 ![](Images/MainPage.png)
 ![](Images/Input1.png)
