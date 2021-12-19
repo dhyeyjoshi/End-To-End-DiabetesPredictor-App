@@ -1,7 +1,7 @@
 # DIAPRAD
 Diabetes Prediction using Machine Learning &  Ensemble Learning
 <b><pre>
-Algoritms:
+Algorithm's:
 1.SVM
 2.K Nearest Neighbor
 3.Naive Bayes
